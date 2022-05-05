@@ -1,0 +1,380 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Navbar  */
+.navbar-careers-wrapper{
+    height: 80px;
+}
+
+.navbar-careers{
+    font-weight:200;
+    font-size: 16px;
+    color: #2A234F;
+}
+
+.navbar-button{
+    font-weight:600;
+    font-size: 14px;
+    color: #424EEC;
+    border-color: #424EEC;
+}
+
+/* ABOVE FOLD SECTION  */
+.above-fold{
+    background: linear-gradient(#DFE8FF, #F5F7FF);
+}
+
+.above-fold-title{
+    font-weight:bolder;
+    font-size: 32px;
+    line-height: 48px;
+    columns: #2B2D31;
+}
+
+.above-fold-subtitle {
+    font-weight:normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4652;
+}
+
+.cta-button{
+    background-color: #424EEC;
+    font-size: 16px;
+    line-height: 24px;
+}
+.cta-button:hover{
+    background-color: #313cd3;
+}
+
+.cta-button-white{
+    background-color: #fff;
+    color: #424EEC;
+}
+
+/* NUMERADE TEAM SECTION  */
+.numerade-team-title {
+    font-weight:900;
+    font-size: 28px;
+    line-height: 42px;
+    color: #2B2D31;
+}
+
+.numerade-team-subtitle{
+    font-weight:normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2B2D31;
+}
+
+/* REMOTE FIRST SECTION  */
+
+.remote-first{
+    background: url("./images/ellipse_sm.png") left bottom no-repeat, linear-gradient(#f8f9fd, #F5F7FF);
+}
+
+.remote-first-content{
+    text-align: right;
+}
+.remote-first-title {
+    font-weight:900;
+    font-size: 28px;
+    line-height: 42px;
+    color: #2B2D31;
+}
+
+.remote-first-subtitle{
+    font-weight:normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2B2D31;
+}
+
+
+/* BENEFITS SECTION  */
+.benefits-title{
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 48px;
+    color: #10171E;
+}
+.benefits-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4652;
+}
+
+.benefits-card{
+    background-color: #fff;
+    height: 264px;
+    border: 1px solid #E7EBF0;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 16px rgb(213, 213, 213));
+}
+
+.benefits-card-icon{
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.benefits-card-icon-1 {
+    background-color: rgba(247, 123, 96, 10%);
+}
+.benefits-card-icon-2 {
+    background-color: rgba(24, 157, 214, 10%);
+}
+.benefits-card-icon-3 {
+    background-color: rgb(21, 196, 49, 10%);
+}
+.benefits-card-icon-4 {
+    background-color: rgba(247, 123, 96, 10%);
+}
+
+.benefits-card-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2B2D31;
+}
+.benefits-card-body{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2D31;
+}
+
+/* TESTIMONIALS SECTION  */
+.testimonials {
+    background: linear-gradient(#170DB7, #707AFF);
+}
+
+.testimonials-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.testimonials-title {
+    font-weight:900;
+    font-size: 28px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.testimonials-card{
+    background-color: #fff;
+    height: 364px;
+    border: 1px solid #E7EBF0;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 16px rgb(213, 213, 213));
+}
+
+.testimonials-body {
+    padding-top: 40px;
+}
+.testimonials-body::before {
+    content: url('./images/testimonials-user-1.png');
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.testimonials-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2B2D31;
+}
+.testimonials-occupation {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2D31;
+}
+.testimonials-location {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5A6673;
+}
+.testimonials-location::before {
+    content: url('./images/location_icon.png');
+    position: absolute;
+    left: 40px;
+}
+
+.testimonials-review {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-weight:400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #3C4652;
+}
+
+
+
+
+/* CORE VALUES SECTION  */
+.core-values-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2B2D31;
+}
+.core-values-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #2B2D31;
+}
+
+.core-values-card {
+    position: relative;
+    padding-left: 60px;
+}
+.core-values-card-1::before {
+    content: url('./images/core_values_icon_01.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.core-values-card-2::before {
+    content: url('./images/core_values_icon_02.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.core-values-card-3::before {
+    content: url('./images/core_values_icon_03.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.core-values-card-4::before {
+    content: url('./images/core_values_icon_04.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.core-values-card-title{
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2B2D31;
+}
+.core-values-card-body{
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* FOOTER SECTION */
+.section-footer-title {
+    font-weight:700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #2B2D31;
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .numerade-team-image{
+        width: 100vw;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .numerade-team-image{
+        width: 100%;
+    }
+
+    .remote-first{
+        background: url("./images/ellipse_md.png") left bottom no-repeat, linear-gradient(#f8f9fd, #F5F7FF);
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .above-fold-title{
+        font-size: 64px;
+        line-height: 80px;
+    }
+
+    .remote-first{
+        background: url("./images/ellipse_lg.png") left bottom no-repeat, linear-gradient(#f8f9fd, #F5F7FF);
+    }
+    .remote-first-title {
+        font-size: 36px;
+        line-height: 56px;
+    }
+    
+    .remote-first-subtitle{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .core-values-title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .core-values-card-title{
+        font-weight:800;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .core-values-card-body{
+        font-weight:400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section-footer-title {
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .benefits-title{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .testimonials-title{
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+}
