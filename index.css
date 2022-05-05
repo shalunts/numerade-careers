@@ -151,6 +151,10 @@ section {
     line-height: 24px;
     color: #2B2D31;
 }
+.benefits-carousel-indicators [data-bs-target] {
+    background-color: #333;
+}
+
 
 /* TESTIMONIALS SECTION  */
 .testimonials {
@@ -167,19 +171,22 @@ section {
 }
 
 .testimonials-title {
-    font-weight:900;
+    font-weight: 700;
     font-size: 28px;
     line-height: 42px;
     color: #fff;
     margin-bottom: 30px;
 }
 
+.testimonials-card-wrapper{
+    padding-top: 60px;
+}
+
 .testimonials-card{
     background-color: #fff;
-    height: 364px;
+    height: 420px;
     border: 1px solid #E7EBF0;
     border-radius: 10px;
-    
 }
 
 .testimonials-body {
@@ -243,15 +250,16 @@ section {
 .testimonials-location::before {
     content: url('./images/location_icon.png');
     position: absolute;
-    left: 40px;
+    left: 135px;
 }
 
 .testimonials-review {
+    margin-top: 15px;
     font-family: 'Lato', sans-serif;
     text-align: left;
-    font-weight:400;
-    font-size: 12px;
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
     color: #3C4652;
 }
 
@@ -400,9 +408,25 @@ section {
         line-height: 64px;
     }
 
+    .testimonials-card{
+        height: 364px;
+    }
+
     .testimonials-title{
         font-size: 48px;
         line-height: 64px;
     }
 
+    .testimonials-location::before {
+        left: 40px;
+    }
+
+    .testimonials-review {
+        font-family: 'Lato', sans-serif;
+        text-align: left;
+        font-weight:400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #3C4652;
+    }
 }
