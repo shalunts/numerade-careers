@@ -171,7 +171,7 @@ section {
 }
 
 .testimonials-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 28px;
     line-height: 42px;
     color: #fff;
@@ -184,7 +184,7 @@ section {
 
 .testimonials-card{
     background-color: #fff;
-    height: 420px;
+    height: 550px;
     border: 1px solid #E7EBF0;
     border-radius: 10px;
 }
@@ -247,10 +247,7 @@ section {
     margin-bottom: 5px;
 
 }
-.testimonials-location::before {
-    content: url('./images/location_icon.png');
-    position: absolute;
-    left: 135px;
+.testimonials-location-img {
 }
 
 .testimonials-review {
