@@ -19,11 +19,22 @@ section {
 }
 
 .navbar-button{
+    padding: 6px 12px;
     font-weight:600;
     font-size: 14px;
+    background-color: #fff;
     color: #424EEC;
-    border-color: #424EEC;
+    border: 1px solid #424EEC;
+    border-radius: 8px;
 }
+.navbar-button:hover {
+ background-color: #F5F7FF;
+}
+
+.navbar-brand {
+    padding-top: 0.125rem;
+}
+
 
 /* ABOVE FOLD SECTION  */
 .above-fold{
@@ -69,7 +80,7 @@ section {
 .numerade-team-subtitle{
     font-weight:normal;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 24px;
     color: #2B2D31;
 }
 
@@ -91,8 +102,8 @@ section {
 
 .remote-first-subtitle{
     font-weight:normal;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
     color: #2B2D31;
 }
 
@@ -116,7 +127,7 @@ section {
     height: 264px;
     border: 1px solid #E7EBF0;
     border-radius: 5px;
-    filter: drop-shadow(4px 4px 16px rgb(213, 213, 213));
+    filter: drop-shadow(4px 4px 16px rgba(213, 213, 213, 40%));
 }
 
 .benefits-card-icon{
@@ -151,6 +162,10 @@ section {
     line-height: 24px;
     color: #2B2D31;
 }
+.benefits-card-body.benefits-card-body-centered {
+    text-align: center;
+
+}
 .benefits-carousel-indicators [data-bs-target] {
     background-color: #333;
 }
@@ -184,7 +199,7 @@ section {
 
 .testimonials-card{
     background-color: #fff;
-    height: 550px;
+    height: 470px;
     border: 1px solid #E7EBF0;
     border-radius: 10px;
 }
@@ -281,28 +296,36 @@ section {
 
 .core-values-card {
     position: relative;
-    padding-left: 60px;
+    padding-left: 100px;
 }
 .core-values-card-1::before {
-    content: url('./images/core_values_icon_01.png');
+    content: url('./images/core_values_icon_01.svg');
+    transform: scale(0.7);
+    transform-origin: top;
     position: absolute;
     left: 0;
     top: 0;
 }
 .core-values-card-2::before {
-    content: url('./images/core_values_icon_02.png');
+    content: url('./images/core_values_icon_02.svg');
+    transform: scale(0.7);
+    transform-origin: top;
     position: absolute;
     left: 0;
     top: 0;
 }
 .core-values-card-3::before {
-    content: url('./images/core_values_icon_03.png');
+    content: url('./images/core_values_icon_03.svg');
+    transform: scale(0.7);
+    transform-origin: top;
     position: absolute;
     left: 0;
     top: 0;
 }
 .core-values-card-4::before {
-    content: url('./images/core_values_icon_04.png');
+    content: url('./images/core_values_icon_04.svg');
+    transform: scale(0.7);
+    transform-origin: top;
     position: absolute;
     left: 0;
     top: 0;
@@ -348,6 +371,10 @@ section {
 
     .remote-first{
         background: url("./images/ellipse_md.png") left bottom no-repeat, linear-gradient(#f8f9fd, #F5F7FF);
+    }
+
+    .testimonials-card{
+        height: 580px;
     }
 }
 
@@ -404,7 +431,7 @@ section {
     }
 
     .testimonials-card{
-        height: 364px;
+        height: 420px;
     }
 
     .testimonials-title{
@@ -420,7 +447,7 @@ section {
         font-family: 'Lato', sans-serif;
         text-align: left;
         font-weight:400;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 24px;
         color: #3C4652;
     }
