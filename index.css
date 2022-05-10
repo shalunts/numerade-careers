@@ -174,6 +174,7 @@ section {
 /* TESTIMONIALS SECTION  */
 .testimonials {
     background: linear-gradient(#170DB7, #707AFF);
+
 }
 
 .testimonials-subtitle {
@@ -191,6 +192,23 @@ section {
     line-height: 42px;
     color: #fff;
     margin-bottom: 30px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.testimonials-content{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.testimonials-right-column-relative {
+    position: relative;
+}
+
+.testimonials-left-column-relative{
+    position: relative;
 }
 
 .testimonials-card-wrapper{
@@ -220,21 +238,21 @@ section {
 .testimonials-user-2::before {
     content: url('./images/testimonials-user-2.png');
     position: absolute;
-    top: -80px;
+    top: -70px;
     left: 50%;
     transform: translate(-50%, 0);
 }
 .testimonials-user-3::before {
     content: url('./images/testimonials-user-3.png');
     position: absolute;
-    top: -80px;
+    top: -70px;
     left: 50%;
     transform: translate(-50%, 0);
 }
 .testimonials-user-4::before {
     content: url('./images/testimonials-user-4.png');
     position: absolute;
-    top: -80px;
+    top: -70px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -373,6 +391,16 @@ section {
         background: url("./images/ellipse_md.png") left bottom no-repeat, linear-gradient(#f8f9fd, #F5F7FF);
     }
 
+    .testimonials{
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .testimonials-content{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
     .testimonials-card{
         height: 580px;
     }
@@ -381,6 +409,9 @@ section {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+    .testimonials-card{
+        height: 500px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -430,13 +461,27 @@ section {
         line-height: 64px;
     }
 
+    .testimonials{
+        margin-bottom: 200px;
+    }
+
+    .testimonials-right-column-absolute{
+        position: absolute;
+        top: -20px;
+    }
+    
+    .testimonials-left-column-absolute{
+        position: absolute;
+        top: -60px;
+    }
+
     .testimonials-card{
-        height: 420px;
+        height: 400px;
     }
 
     .testimonials-title{
-        font-size: 48px;
-        line-height: 64px;
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .testimonials-location::before {
@@ -450,5 +495,19 @@ section {
         font-size: 16px;
         line-height: 24px;
         color: #3C4652;
+    }
+}
+
+@media only screen and (min-width : 1400px) {
+    .testimonials{
+        margin-bottom: 150px;
+    }
+
+    .testimonials-title{
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .testimonials-card{
+        height: 350px;
     }
 }
