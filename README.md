@@ -1,3 +1,3 @@
-This is a careers page ofr Numerade.
+This is a careers page for Numerade.
 
 https://numerade-careers.netlify.app/
